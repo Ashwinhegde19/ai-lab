@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Models / large artifacts (keep out of git — push to HF Hub instead)
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+outputs/
+wandb/
+runs/
+
+# Data (keep small examples in git, push large datasets to HF Hub)
+data/raw/
+data/processed/
+*.parquet
+*.arrow
+
+# Environment
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Modal / cloud
+.modal-cache/
+
+# Reference documents
+docs/ai-lab-reference.pdf
+docs/
+# Playwright / test artifacts
+.playwright/
+.playwright-mcp/
+playwright-report/
